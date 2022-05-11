@@ -1,0 +1,3 @@
+[submodule "higrid"]
+	path = higrid
+	url = https://github.com/metu-sparg/higrid.git

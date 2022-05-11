@@ -1,0 +1,15 @@
+{
+    "higrid_path": "/mnt/d/dev/higrid/higrid",
+    "params": {
+        "Ndec": 4,
+        "NFFT": 1024,
+        "olap": 16,
+        "Fs": 48000,
+        "fL": 2608.0,
+        "fH": 5216.0,
+        "Jnu": 25,
+        "Jtau": 4,
+        "Ndec_spcorr": 3
+    },
+    "dur_scene": 4
+}
