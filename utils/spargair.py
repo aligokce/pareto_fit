@@ -41,3 +41,22 @@ def generate_positions() -> list:
         grid.remove(p)
 
     return grid
+
+def generate_perpendicular_positions() -> list:
+    """ Generate all possible perpendicular grid positions on SPARG AIR Dataset
+    
+    Returns:
+        list: List of all positions perpendicular to the microphone position
+    """
+    return [(0, 3, 2),
+            (1, 3, 2),
+            (2, 3, 2),
+            (3, 0, 2),
+            (3, 1, 2),
+            (3, 2, 2),
+            (3, 4, 2),
+            (3, 5, 2),
+            (3, 6, 2),
+            (4, 3, 2),
+            (5, 3, 2),
+            (6, 3, 2)]
